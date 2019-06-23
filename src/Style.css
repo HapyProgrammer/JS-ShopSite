@@ -1,0 +1,200 @@
+* {
+  box-sizing: border-box;
+  background-color: lightblue;
+}
+
+.green {
+  color: limegreen;
+}
+.gold {
+  color: gold;
+}
+
+.navbar {
+  background-color: rgb(59, 56, 82);
+  position: absolute;
+  vertical-align: middle;
+  top: 0;
+  height: 50px;
+  width: 100%;
+}
+.navbar .router-link {
+  position: absolute;
+  display: inline-block;
+  background-color: rgb(59, 56, 82);
+  left: 30px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  height: 100%;
+}
+.navbar .router-link h3 {
+  background-color: rgb(59, 56, 82);
+  margin: 10px 0 0 0;
+}
+
+.navbar .your-logo {
+  position: absolute;
+  display: inline-block;
+  background-color: rgb(59, 56, 82);
+  left: 42%;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  height: 100%;
+}
+
+.navbar .your-logo h2 {
+  background-color: rgb(59, 56, 82);
+  margin: 10px 0 0 0;
+}
+
+.navbar .your-details {
+  position: absolute;
+  display: inline-block;
+  color: white;
+  font-weight: bold;
+  right: 30px;
+  background-color: rgb(59, 56, 82);
+  height: 100%;
+}
+
+.navbar .your-details h3 {
+  display: inline-block;
+  padding-right: 5px;
+
+  margin: 10px 0 0 0;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.shop-items {
+  background-color: white;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  position: relative;
+  width: 90%;
+  height: 92vh;
+  top: 50px;
+}
+.shop-items::-webkit-scrollbar {
+  width: 10px;
+}
+
+.shop-items::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+.shop-items::-webkit-scrollbar-thumb {
+  background: lightgray;
+  border-radius: 10px;
+}
+
+.shop-items .item-image img {
+  margin: 0;
+  background-color: white;
+  border: 1px solid white;
+}
+.shop-items .item-image {
+  background-color: white;
+}
+
+.shop-items .item-image img:hover {
+  margin: 0;
+  background-color: white;
+  border: 3px solid darkslateblue;
+}
+
+.item {
+  position: relative;
+  background-color: white;
+  top: 50px;
+  left: 5%;
+  width: 90%;
+  height: 90vh;
+}
+
+.item .image-section,
+.item .image-section img,
+.item .description-section,
+.item .description-section h3,
+.item .description-section h4,
+.item .description-section p,
+.item .buy-section,
+.item .buy-section h1,
+.item .buy-section p,
+.item .buy-section strong,
+.item .buy-section button {
+  position: relative;
+  display: inline-block;
+  background-color: white;
+}
+
+.item .image-section,
+.item .description-section,
+.item .buy-section {
+  position: absolute;
+  top: 0px;
+  height: 100%;
+  width: 33%;
+}
+
+.item .image-section {
+  left: 0;
+}
+.item .image-section img {
+  height: 100%;
+  width: 100%;
+}
+.item .description-section {
+  left: 33%;
+}
+.item .description-section h4 {
+  color: lightcoral;
+}
+
+.item .buy-section {
+  height: 50%;
+  border-radius: 10px;
+  top: 10%;
+  border: 1px solid lightgray;
+  left: 66%;
+}
+
+.item .buy-section h1 {
+  color: lightcoral;
+  left: 10px;
+}
+.item .buy-section p {
+  left: 10px;
+}
+
+.bottom-button {
+  background-color: rgba(0, 0, 0, 0);
+  position: absolute;
+  bottom: 50px;
+  width: 100%;
+}
+
+.item .buy-section button {
+  display: block;
+  font-weight: bold;
+  background-image: linear-gradient(to bottom, #ffebd1, #fb9d23);
+  border-radius: 5px;
+  border: 1px solid rgb(214, 121, 0);
+  bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 40px;
+}
+
+.item .buy-section button:hover {
+  font-weight: bold;
+  background-image: linear-gradient(to bottom, #ffd194, #c77102);
+  border-radius: 5px;
+  border: 1px solid rgb(214, 121, 0);
+  width: 200px;
+  height: 40px;
+}
